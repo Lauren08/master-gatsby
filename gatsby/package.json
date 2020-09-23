@@ -30,7 +30,7 @@
     "gatsby-plugin-react-helmet": "3.3.11",
     "gatsby-plugin-styled-components": "3.3.11",
     "gatsby-source-sanity": "6.0.4",
-    "isomorphic-fetch": "2.2.1",
+    "isomorphic-fetch": "3.0.0",
     "netlify-cli": "2.64.0",
     "netlify-lambda": "2.0.1",
     "normalize.css": "8.0.1",
