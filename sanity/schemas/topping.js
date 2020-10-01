@@ -27,7 +27,7 @@ export default {
       vegetarian: 'vegetarian',
     },
     prepare: ({ name, vegetarian }) => ({
-      title: `${name} ${vegetarian ? '(veg)' : ''}`,
+      title: `${name} ${vegetarian ? '🌱' : ''}`,
     }),
   },
 };
