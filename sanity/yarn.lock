@@ -1051,10 +1051,10 @@
   resolved "https://registry.yarnpkg.com/@rexxars/eventsource-polyfill/-/eventsource-polyfill-1.0.0.tgz#ab46f2f44da23aedd6f51f13d92a194a5367525b"
   integrity sha512-YnrybIoM9WFqmeK1D8p/gutqjJnmXCVFWAU3ucka9M7Dzpen3f2Dy4KsC6k1wDHrCtHQuUHHwZovh3i5UPDaZw==
 
-"@sanity/asset-utils@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@sanity/asset-utils/-/asset-utils-1.1.0.tgz#6ab731d940150aea843df405dec2a422e90e5aec"
-  integrity sha512-EN5SitUaGAz/EtJeQYXawdlsMqpZfklIm0WlSjEyXgNd/mhnZbQpeifsvajKivMn2A8G5Cgv/ZMaLZ6KnOMmXg==
+"@sanity/asset-utils@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@sanity/asset-utils/-/asset-utils-1.1.2.tgz#d6b4b875bee4189cb56f274a7fb5494174463cb2"
+  integrity sha512-wVNhZ/W0ktlvHUzUrCuJMY9YtSls3PU+p5iQko8+P2R0HhEJfBCeTMTdqCe4BY/AfzVb4tn3/xr6XRRBKEL+AA==
 
 "@sanity/base@2.0.1":
   version "2.0.1"
@@ -1065,6 +1065,47 @@
     "@sanity/client" "2.0.1"
     "@sanity/color" "^1.0.0"
     "@sanity/components" "2.0.1"
+    "@sanity/generate-help-url" "2.0.1"
+    "@sanity/image-url" "^0.140.19"
+    "@sanity/initial-value-templates" "2.0.1"
+    "@sanity/mutator" "2.0.1"
+    "@sanity/observable" "2.0.1"
+    "@sanity/preview" "2.0.1"
+    "@sanity/schema" "2.0.1"
+    "@sanity/state-router" "2.0.1"
+    "@sanity/structure" "2.0.1"
+    "@sanity/transaction-collator" "2.0.1"
+    "@sanity/types" "2.0.1"
+    "@sanity/util" "2.0.1"
+    "@sanity/uuid" "2.0.1"
+    "@sanity/validation" "2.0.1"
+    dataloader "^2.0.0"
+    date-fns "^2.16.1"
+    history "^4.6.3"
+    lodash "^4.17.15"
+    nano-pubsub "^2.0.0"
+    nanoid "^3.1.9"
+    observable-callback "^1.0.1"
+    oneline "^1.0.3"
+    promise-props "^1.0.0"
+    raf "^3.4.1"
+    react-fast-compare "^2.0.2"
+    react-icon-base "^2.1.2"
+    react-intl "^2.2.2"
+    react-props-stream "^1.0.0"
+    rxjs "^6.5.3"
+    semver-compare "^1.0.0"
+    shallow-equals "^1.0.0"
+
+"@sanity/base@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@sanity/base/-/base-2.0.2.tgz#166b6ccbe345f8cc0801ba8c08b9a526c24e8683"
+  integrity sha512-qgqCwo8crLBRK8N9T77SoOs1bSTB73Js3kIn70advYFbL4TgTtfJ79Jex29kHswpT3wmjcrFUjjmdtRWNkhwZQ==
+  dependencies:
+    "@sanity/bifur-client" "^0.0.7"
+    "@sanity/client" "2.0.1"
+    "@sanity/color" "^1.0.0"
+    "@sanity/components" "2.0.2"
     "@sanity/generate-help-url" "2.0.1"
     "@sanity/image-url" "^0.140.19"
     "@sanity/initial-value-templates" "2.0.1"
@@ -1197,6 +1238,33 @@
     rxjs "^6.5.3"
     string-hash "^1.1.3"
 
+"@sanity/components@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@sanity/components/-/components-2.0.2.tgz#ccecaa2b9e4c01e4695e1e2653e53a054c5de912"
+  integrity sha512-yPbhvYdV1944DyfXWvNiChNjIJAbh4YJ6vboTQxpbu1oELBaNLPnkAzT11FAEUGFSgMjC1S/fUvt14VYSUKPTA==
+  dependencies:
+    "@juggle/resize-observer" "^3.2.0"
+    "@popperjs/core" "^2.4.4"
+    "@reach/auto-id" "^0.10.5"
+    "@sanity/base" "2.0.2"
+    "@sanity/types" "2.0.1"
+    "@sanity/util" "2.0.1"
+    boundless-arrow-key-navigation "^1.1.0"
+    chance "^1.0.4"
+    circular-at "^1.0.3"
+    classnames "^2.2.5"
+    date-fns "^2.16.1"
+    dom-scroll-into-view "^1.2.1"
+    element-resize-detector "^1.1.14"
+    lodash "^4.17.15"
+    nano-pubsub "^2.0.0"
+    popper-max-size-modifier "^0.2.0"
+    react-click-outside "^3.0.0"
+    react-popper "^2.2.3"
+    react-sortable-hoc "^1.11.0"
+    react-split-pane "^0.1.84"
+    rxjs "^6.5.3"
+
 "@sanity/core@2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@sanity/core/-/core-2.0.1.tgz#1dc0c856085343d0984cc2d7d005b818c7b9c5bc"
@@ -1279,13 +1347,13 @@
     "@sanity/generate-help-url" "2.0.1"
     lodash "^4.17.15"
 
-"@sanity/default-layout@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@sanity/default-layout/-/default-layout-2.0.1.tgz#f4f8893d2ba0fbcbdcfcefaab01dfacb117e6513"
-  integrity sha512-TlbQP6WJzu6SM3H1m3hSYORW4mF9DtnAgaBQ5wdAwRixBW2qZC/FyPKrm6kQYN8NwGJ+T9UjUkX6tU4Li/pEpw==
+"@sanity/default-layout@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@sanity/default-layout/-/default-layout-2.0.2.tgz#00c78b0950e2088660ac9025485ef7cb50ad1c93"
+  integrity sha512-Qp1WwCWgMsLxeBEvS9hHYJMSJN6n6l+iO/rqAcNGEh3Affzf4+vqKGGpoubcMcvk5OHkPCr1hsncmg9IB8MNbg==
   dependencies:
-    "@sanity/base" "2.0.1"
-    "@sanity/components" "2.0.1"
+    "@sanity/base" "2.0.2"
+    "@sanity/components" "2.0.2"
     "@sanity/generate-help-url" "2.0.1"
     "@sanity/util" "2.0.1"
     classnames "^2.2.5"
@@ -1304,20 +1372,20 @@
     prop-types "^15.6.0"
     rxjs "^6.5.3"
 
-"@sanity/desk-tool@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.0.1.tgz#1466799d3876d2da0f783184a8b451c97b273e47"
-  integrity sha512-eFBskBHTA34YcQxRathBHz2JGV0RQXcrdUZtB5w9vK+TvrOZGA2TMkWMobL2/kQ+kNpeeg/sqW69QKnj4/bjJQ==
+"@sanity/desk-tool@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.0.2.tgz#de49ceb4425d4caa147442f255ac0a254a1f4372"
+  integrity sha512-t9YuuRQxPzMaQZiXPs9i3tImRcHyfslK6M84AJ3Qv87aNpdOMX40sNPFvIo5uvnKnfTj41ukC0tdUz0pdHCdUQ==
   dependencies:
     "@juggle/resize-observer" "^3.2.0"
     "@popperjs/core" "^2.4.4"
     "@reach/auto-id" "^0.10.5"
-    "@sanity/base" "2.0.1"
-    "@sanity/components" "2.0.1"
+    "@sanity/base" "2.0.2"
+    "@sanity/components" "2.0.2"
     "@sanity/data-aspects" "2.0.1"
     "@sanity/diff" "2.0.1"
-    "@sanity/field" "2.0.1"
-    "@sanity/form-builder" "2.0.1"
+    "@sanity/field" "2.0.2"
+    "@sanity/form-builder" "2.0.2"
     "@sanity/generate-help-url" "2.0.1"
     "@sanity/mutator" "2.0.1"
     "@sanity/react-hooks" "2.0.1"
@@ -1382,14 +1450,14 @@
     simple-get "^4.0.0"
     split2 "^3.2.2"
 
-"@sanity/field@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@sanity/field/-/field-2.0.1.tgz#436867bb780005edfcbdb69a71353b0b249a5395"
-  integrity sha512-g1tnBTrG9h6fhe74owmyBZrmmx8KE0OLYI6ZsHL3boXgi6EiiEfsK5NtR23wNRZgqYWs/ReAwXd0IRCxToxKNw==
+"@sanity/field@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@sanity/field/-/field-2.0.2.tgz#740f357ac9f1da2763ce453725b69436da4dfd37"
+  integrity sha512-FywAq7rrUNOjaDbh9DDdRWAQKVFgdNr2axs2Gzu1MXHxx9YdlZWDr7om7SChrdD1cJ+RnfTL7yxsuQHdHjL/Jw==
   dependencies:
-    "@sanity/asset-utils" "^1.1.0"
-    "@sanity/base" "2.0.1"
-    "@sanity/components" "2.0.1"
+    "@sanity/asset-utils" "^1.1.2"
+    "@sanity/base" "2.0.2"
+    "@sanity/components" "2.0.2"
     "@sanity/diff" "2.0.1"
     "@sanity/react-hooks" "2.0.1"
     "@sanity/types" "2.0.1"
@@ -1397,14 +1465,14 @@
     date-fns "^2.16.1"
     sanity-diff-patch "^1.0.9"
 
-"@sanity/form-builder@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@sanity/form-builder/-/form-builder-2.0.1.tgz#ec14dff0459ea019d4d2945b25c3efca86c8699b"
-  integrity sha512-ApFINRkRp1owyDi09XP0jlhpM8OdcgkOlUMwalm2I0ZLt+9iQG5vUKIk0woAgZjKH8ueFGxG/Dip7dJS927D4Q==
+"@sanity/form-builder@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@sanity/form-builder/-/form-builder-2.0.2.tgz#b18cf79ffdea646757e18eb6ee9eafc95c6a2a86"
+  integrity sha512-BoAOHcwbUP+bKasLg12nQF8PirfcmLiBCkhK9jY2tttCgajgX+aTWt2mPaFw+s4ABcq7MzBUir2oPhc8BWIzUA==
   dependencies:
-    "@sanity/base" "2.0.1"
+    "@sanity/base" "2.0.2"
     "@sanity/block-tools" "2.0.1"
-    "@sanity/components" "2.0.1"
+    "@sanity/components" "2.0.2"
     "@sanity/generate-help-url" "2.0.1"
     "@sanity/imagetool" "2.0.1"
     "@sanity/mutator" "2.0.1"
@@ -1447,12 +1515,12 @@
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-2.0.1.tgz#2ba4c8087bd1447737358a6b18ad6ea503252532"
   integrity sha512-dnmMUZJH1tklqh6FE7dCc/L/0VcCexeyrcEBCt9me0KDwVna9l9fzQUo2uSg82ZvxWt+Bkq1c5zP5BDzMpj7Mw==
 
-"@sanity/google-maps-input@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@sanity/google-maps-input/-/google-maps-input-2.0.1.tgz#fffdb2975aa712f2fba5c537d67350fbc7f2688a"
-  integrity sha512-M1aUvLh7DLoAVNWw+CIJqVDi2fCbzTKYNs1IB7cTNOoe1+3HSf1k8hEm5p/tMSkrDvGHSucV0LkEuD0cxa4/2Q==
+"@sanity/google-maps-input@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@sanity/google-maps-input/-/google-maps-input-2.0.2.tgz#87f12271ffa88315802f888d8d5ece0bf011d77f"
+  integrity sha512-13+dn0ED7ZF/gYP7ZJRGGhjcx8ekHNF/d1Tv0/cJ6F/nNhodELuAayWXBnpDeWc6hexw5d2dGDdQHsHSHWIntw==
   dependencies:
-    "@sanity/field" "2.0.1"
+    "@sanity/field" "2.0.2"
     "@sanity/react-hooks" "2.0.1"
     "@sanity/types" "2.0.1"
     classnames "^2.2.5"
