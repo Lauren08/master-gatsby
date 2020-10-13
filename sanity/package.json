@@ -19,13 +19,13 @@
     ]
   },
   "dependencies": {
-    "@sanity/base": "2.0.2",
-    "@sanity/components": "2.0.2",
+    "@sanity/base": "2.0.4",
+    "@sanity/components": "2.0.4",
     "@sanity/core": "2.0.1",
-    "@sanity/default-layout": "2.0.2",
+    "@sanity/default-layout": "2.0.4",
     "@sanity/default-login": "2.0.1",
-    "@sanity/desk-tool": "2.0.2",
-    "@sanity/google-maps-input": "2.0.2",
+    "@sanity/desk-tool": "2.0.4",
+    "@sanity/google-maps-input": "2.0.4",
     "@sanity/structure": "2.0.1",
     "@sanity/vision": "2.0.1",
     "prop-types": "15.7.2",
