@@ -45,6 +45,9 @@ const NavStyles = styled.nav`
     &:hover {
       color: var(--red);
     }
+    &[aria-current='page'] {
+      color: var(--red);
+    }
   }
 `;
 
