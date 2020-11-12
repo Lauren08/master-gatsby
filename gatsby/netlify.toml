@@ -1,2 +1,7 @@
 [build]
   functions = "functions/"
+
+[[redirects]]
+  from = "/slicemasters"
+  to = "/slicemasters/1"
+  force = true
