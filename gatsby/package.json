@@ -31,7 +31,7 @@
     "gatsby-plugin-styled-components": "3.10.0",
     "gatsby-source-sanity": "6.0.5",
     "isomorphic-fetch": "3.0.0",
-    "netlify-cli": "3.4.7",
+    "netlify-cli": "3.5.0",
     "netlify-lambda": "2.0.3",
     "normalize.css": "8.0.1",
     "prop-types": "15.7.2",
