@@ -23,7 +23,7 @@
     }
   },
   "dependencies": {
-    "babel-plugin-styled-components": "1.13.1",
+    "babel-plugin-styled-components": "1.13.2",
     "dotenv": "10.0.0",
     "gatsby": "3.9.0",
     "gatsby-image": "3.9.0",
