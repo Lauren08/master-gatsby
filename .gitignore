@@ -105,3 +105,4 @@ dist
 
 # gatsby public
 gatsby/public/
+.env
